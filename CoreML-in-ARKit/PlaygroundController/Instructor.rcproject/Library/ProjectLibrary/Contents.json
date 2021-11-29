@@ -28,5 +28,15 @@
     "libraryIdentifier" : "0aee553d4a4c059e0f599c384cb3ae32",
     "format" : "model",
     "displayName" : "Leather_boots.usdz"
+  },
+  {
+    "libraryIdentifier" : "d6bd192442c988d96a23e48d5a3e41dc",
+    "format" : "model",
+    "displayName" : "welcome.usdz"
+  },
+  {
+    "libraryIdentifier" : "96ad640058eccff811f605ec5f14146e",
+    "format" : "model",
+    "displayName" : "ski_outline.usdz"
   }
 ]
