@@ -38,5 +38,10 @@
     "libraryIdentifier" : "96ad640058eccff811f605ec5f14146e",
     "format" : "model",
     "displayName" : "ski_outline.usdz"
+  },
+  {
+    "libraryIdentifier" : "e6e78078539fab30f5f60be93d5af275",
+    "format" : "model",
+    "displayName" : "jacket_outline.usdz"
   }
 ]

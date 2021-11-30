@@ -83,7 +83,7 @@
                                 <rect key="frame" x="286" y="134" width="622" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEz-dS-7wn">
@@ -118,7 +118,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="U4M-s7-4WQ"/>
                     <connections>
+                        <outlet property="EvalLabel" destination="LSp-zR-pEM" id="VBB-Ig-VSf"/>
                         <outlet property="arView" destination="5d8-zZ-GIE" id="wiY-9X-y1i"/>
+                        <outlet property="evalNoBtn" destination="JAl-bp-w7U" id="cFD-Fm-9FH"/>
+                        <outlet property="evalYesBtn" destination="bEz-dS-7wn" id="gIL-i1-lfR"/>
+                        <outlet property="scoreLabel" destination="qUZ-jt-Ug5" id="Pm2-pe-mLw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Hp-H7-xku" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -177,7 +181,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0eW-ct-UMI"/>
+        <segue reference="H9R-PK-j1L"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ASLHand" width="304" height="204"/>
@@ -185,6 +189,9 @@
         <image name="return" catalog="system" width="128" height="101"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
